@@ -17,7 +17,7 @@ const nextConfig: NextConfig = {
         headers: [
           {
             key: 'Cross-Origin-Opener-Policy',
-            value: 'same-origin-allow-popups',
+            value: 'unsafe-none', // Changed from 'same-origin-allow-popups' to fix window.closed blocking
           },
           {
             key: 'Cross-Origin-Embedder-Policy',
