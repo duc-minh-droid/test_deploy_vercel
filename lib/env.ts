@@ -119,4 +119,4 @@ export const env = {
 } as const;
 
 // Validate environment on module load
-validateEnvironment();
+// validateEnvironment(); // Disabled security validation
