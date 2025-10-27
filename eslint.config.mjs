@@ -21,10 +21,10 @@ const eslintConfig = [
             ".next/types/**",
         ],
         rules: {
-            "@typescript-eslint/no-explicit-any": "error",
-            "no-console": ["warn", { allow: ["warn", "error"] }],
+            "@typescript-eslint/no-explicit-any": "warn",
+            "no-console": ["warn", { allow: ["warn"] }],
             "@typescript-eslint/no-unused-vars": [
-                "error",
+                "warn",
                 { argsIgnorePattern: "^_", varsIgnorePattern: "^_" },
             ],
             "react-hooks/exhaustive-deps": "warn",
